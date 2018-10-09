@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.chitchat.StatusActivity">
+    <include layout="@layout/app_bar_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/status_appbar"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/change_status_text"
+    android:hint="Your Status"
+
+    android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Change Status "
+        android:id="@+id/change_status"
+        android:layout_marginTop="20dp"
+        android:background="#f41111"
+        android:textColor="#fff"
+        android:layout_gravity="right"/>
+
+
+</LinearLayout>

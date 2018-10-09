@@ -1,0 +1,79 @@
+[debug] [2018-03-08T08:37:45.687Z] ----------------------------------------------------------------------
+[debug] [2018-03-08T08:37:45.692Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-03-08T08:37:45.692Z] CLI Version:   3.17.5
+[debug] [2018-03-08T08:37:45.692Z] Platform:      darwin
+[debug] [2018-03-08T08:37:45.692Z] Node Version:  v9.8.0
+[debug] [2018-03-08T08:37:45.693Z] Time:          Thu Mar 08 2018 14:07:45 GMT+0530 (IST)
+[debug] [2018-03-08T08:37:45.693Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-08T08:37:45.717Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-03-08T08:37:45.718Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/hardik/Desktop/Chitchat
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-03-08T08:37:55.426Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-08T08:37:55.427Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eNJWrmcROLlbCpiaG8eGDa9-XVpdOrrRDRjBaL-N5Uc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Mar 08 2018 14:07:55 GMT+0530 (IST)
+[debug] [2018-03-08T08:37:56.013Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T08:37:56.024Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Thu Mar 08 2018 14:07:56 GMT+0530 (IST)
+[debug] [2018-03-08T08:37:57.883Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2018-03-08T08:37:57.887Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-08T08:37:57.888Z] > authorizing via signed-in user
+[debug] [2018-03-08T08:37:57.889Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-08T08:37:57.889Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eNJWrmcROLlbCpiaG8eGDa9-XVpdOrrRDRjBaL-N5Uc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Mar 08 2018 14:07:57 GMT+0530 (IST)
+[debug] [2018-03-08T08:37:58.222Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T08:37:58.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chitchat-32788  
+  
+ Thu Mar 08 2018 14:07:58 GMT+0530 (IST)
+[debug] [2018-03-08T08:37:59.528Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T08:37:59.529Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chitchat-32788/tokens  
+  
+ Thu Mar 08 2018 14:07:59 GMT+0530 (IST)
+[debug] [2018-03-08T08:38:00.792Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T08:38:00.798Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/chitchat-32788?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Thu Mar 08 2018 14:08:00 GMT+0530 (IST)
+[debug] [2018-03-08T08:38:00.799Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/chitchat-32788?updateMask=usageSettings  
+ { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Thu Mar 08 2018 14:08:00 GMT+0530 (IST)
+[debug] [2018-03-08T08:38:03.703Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T08:38:03.729Z] <<< HTTP RESPONSE 200

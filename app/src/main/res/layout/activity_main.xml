@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.user.chitchat.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ChitChat"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:background="@drawable/editext"
+        android:id="@+id/loginbtn"
+        android:text="Login"
+        android:textColor="#030000"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="200dp"
+        android:background="@drawable/editext"
+        android:gravity="center"
+        android:layout_height="60dp"
+        android:id="@+id/regbtn"
+        android:textSize="20sp"
+        android:text="SIGN UP"
+
+        android:textColor="#301010"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
